@@ -37,9 +37,9 @@ button { font: inherit; }
 .hero {
   min-height: 690px;
   padding: 100px 8% 80px;
-  background:
-    linear-gradient(rgba(6, 30, 41, .72), rgba(6, 30, 41, .82)),
-    url("../img/IA.jpeg") center center / cover no-repeat;
+ background:
+  linear-gradient(rgba(6, 30, 41, .72), rgba(6, 30, 41, .82)),
+  url("https://rabatinieduarda-code.github.io/tecnologia-azul/img/IA.jpeg") center center / cover no-repeat;
   color: white;
   position: relative;
   overflow: hidden;
