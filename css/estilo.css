@@ -291,9 +291,6 @@ h2 { font-size: clamp(38px, 4.4vw, 59px); line-height: 1.05; letter-spacing: -.0
     object-fit: contain;
 }
 
-
-
-/* Interacao suave dos cards: destaque ao passar o mouse ou tocar */
 .stat-card,
 .impact-card,
 .image-card,
