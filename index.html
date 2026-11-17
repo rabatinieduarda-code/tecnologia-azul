@@ -1,0 +1,240 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Tecnologia Azul — pesquisa do grupo Oceon sobre o consumo de água pela inteligência artificial e os impactos ambientais dos data centers.">
+  <title>Tecnologia Azul | Grupo Oceon</title>
+  <link rel="icon" type="image/png" href="img/favicon-512.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/estilo.css">
+  <script src="js/site.js" defer></script>
+</head>
+<body>
+  <a class="skip-link" href="#conteudo">Pular para o conteúdo</a>
+  <header class="header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Tecnologia Azul, início">
+      <span class="brand-mark" aria-hidden="true">≈</span>
+      <span>TECNOLOGIA <b>AZUL</b><small>GRUPO OCEON · TURMA 148</small></span>
+    </a>
+    <button class="menu-toggle" id="menuToggle" aria-label="Abrir menu" aria-expanded="false" aria-controls="nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="nav" id="nav" aria-label="Menu principal">
+      <a href="#contexto">Contexto</a>
+      <a href="#agua">Consumo de água</a>
+      <a href="#dados">Dados</a>
+      <a href="#impactos">Impactos</a>
+      <a href="#solucoes">Soluções</a>
+      <a class="nav-quiz" href="#quiz">Quiz ↗</a>
+    </nav>
+  </header>
+
+  <main id="conteudo">
+    <section class="hero">
+      <div class="hero-content">
+        <p class="eyebrow"><span class="pulse"></span> TECNOLOGIA, ÁGUA E MEIO AMBIENTE</p>
+        <h1>O lado invisível<br>da <em>inteligência</em><br>artificial.</h1>
+        <p class="hero-lead">A IA parece existir apenas na tela. Mas, por trás de cada comando, há estruturas físicas que consomem energia e podem utilizar grandes volumes de água.</p>
+        <a class="button button-light" href="#contexto">Conheça o impacto <span aria-hidden="true">↓</span></a>
+        <div class="hero-meta">
+          <span>UMA PESQUISA DE <strong>OCEON</strong></span>
+          <span>GEOGRAFIA <strong>2026</strong></span>
+        </div>
+      </div>
+      <div class="hero-visual">
+        <img src="img/servidores.svg" alt="Ilustração de servidores de data center conectados a linhas que representam fluxo de dados e água.">
+        <div class="visual-tag"><span class="tag-dot"></span> O CUSTO DA NUVEM</div>
+      </div>
+      <div class="hero-bottom">DESLIZE PARA EXPLORAR <span>⌄</span></div>
+    </section>
+
+    <section class="intro-strip">
+      <span class="strip-number">01</span>
+      <p><strong>Uma pergunta para começar:</strong> como a expansão do mundo digital pode afetar um recurso essencial à vida?</p>
+      <span class="strip-line" aria-hidden="true"></span>
+    </section>
+
+    <section class="section two-columns" id="contexto">
+      <div class="section-copy">
+        <p class="kicker">ENTENDA A INFRAESTRUTURA <span>01 / 06</span></p>
+        <h2>O que são<br><em>data centers?</em></h2>
+        <p>Data centers são instalações que armazenam, processam e distribuem grandes quantidades de informações. Eles possuem milhares de servidores que permitem o funcionamento de sites, aplicativos, redes sociais e ferramentas de inteligência artificial.</p>
+        <p>Esses equipamentos funcionam continuamente e produzem bastante calor. Por isso, precisam de sistemas de refrigeração para evitar o superaquecimento e garantir que continuem funcionando corretamente.</p>
+        <p>Com o crescimento da inteligência artificial, a necessidade de processamento de dados aumentou, fazendo com que muitos data centers precisem de mais energia e recursos para funcionar.</p>
+      </div>
+      <figure class="image-card">
+        <img src="img/data-center.jpg" alt="Interior de um data center com fileiras de servidores">
+        <figcaption>Servidores processam e armazenam os dados que sustentam os serviços digitais.</figcaption>
+      </figure>
+    </section>
+
+    <section class="section dark-section two-columns" id="agua">
+      <figure class="image-card image-card-dark">
+        <img src="img/refrigeracao.svg" alt="Esquema ilustrativo de refrigeração de servidores com circulação de água e retirada de calor.">
+        <figcaption><span>FIG. 01</span> A refrigeração ajuda a manter os equipamentos em temperaturas adequadas.</figcaption>
+      </figure>
+      <div class="section-copy">
+        <p class="kicker">DE ONDE VEM O CONSUMO? <span>02 / 06</span></p>
+        <h2>Por que a IA<br><em>usa água?</em></h2>
+        <p>A água é utilizada principalmente para ajudar a resfriar os equipamentos dos data centers. Como os servidores trabalham constantemente, eles liberam calor e precisam de sistemas de refrigeração.</p>
+        <p>Em alguns sistemas, a água é utilizada diretamente no resfriamento. Em outros, o consumo acontece indiretamente, durante a produção da energia elétrica utilizada pelos equipamentos.</p>
+        <p>O treinamento e o funcionamento de modelos de inteligência artificial exigem grande capacidade de processamento. Quanto maior a demanda por esses serviços, maior pode ser a necessidade de infraestrutura, energia e água.</p>
+        <aside class="note"><strong>ATENÇÃO</strong><p>Nem todo data center utiliza água da mesma maneira. O consumo depende da tecnologia de refrigeração, da localização e da fonte de energia.</p></aside>
+      </div>
+    </section>
+
+    <section class="section stats-section" id="dados">
+      <div class="section-heading">
+        <p class="kicker">O TAMANHO DA DEMANDA <span>03 / 06</span></p>
+        <h2>Os números<br><em>por trás da nuvem.</em></h2>
+        <p>Os dados ajudam a dimensionar o uso de recursos pela infraestrutura digital.</p>
+      </div>
+      <div class="stats-grid">
+        <article class="stat-card">
+          <p>ELETRICIDADE · MUNDO · 2024</p>
+          <strong>415 <small>TWh</small></strong>
+          <span>Consumo estimado de eletricidade dos data centers em 2024.</span>
+        </article>
+        <article class="stat-card stat-featured">
+          <p>PROJEÇÃO · MUNDO · 2030</p>
+          <strong>945 <small>TWh</small></strong>
+          <span>Consumo anual que os data centers podem alcançar em 2030.</span>
+        </article>
+        <article class="stat-card">
+          <p>ÁGUA DIRETA · EUA · 2023</p>
+          <strong>66 <small>bilhões L</small></strong>
+          <span>Estimativa de consumo direto de água pelos data centers dos Estados Unidos.</span>
+        </article>
+        <article class="stat-card">
+          <p>ÁGUA INDIRETA · EUA · 2023</p>
+          <strong>800 <small>bilhões L</small></strong>
+          <span>Estimativa associada à geração da eletricidade utilizada pelos data centers.</span>
+        </article>
+      </div>
+
+      <div class="chart-panel">
+        <div class="chart-heading">
+          <div><p class="kicker">CONSUMO DE ELETRICIDADE</p><h3>2024 × projeção para 2030</h3></div>
+          <span class="chart-unit">TERAWATTS-HORA / ANO</span>
+        </div>
+        <div class="chart" role="img" aria-label="Gráfico de barras comparando 415 terawatts-hora em 2024 e 945 terawatts-hora projetados para 2030.">
+          <div class="chart-row"><span>2024</span><div class="bar-track"><div class="bar bar-2024"></div></div><b>415 TWh</b></div>
+          <div class="chart-row"><span>2030</span><div class="bar-track"><div class="bar bar-2030"></div></div><b>945 TWh</b></div>
+          <div class="chart-scale"><span>0</span><span>250</span><span>500</span><span>750</span><span>1.000 TWh</span></div>
+        </div>
+      </div>
+      <p class="data-caveat">Os números apresentados são referentes aos data centers em geral, e não exclusivamente aos utilizados para inteligência artificial. O valor de 2030 é uma projeção da IEA, não um dado já observado. Os valores de água referem-se aos Estados Unidos.</p>
+    </section>
+
+    <section class="section location-section two-columns" id="localizacao">
+      <div class="section-copy">
+        <p class="kicker">GEOGRAFIA DA INFRAESTRUTURA <span>04 / 06</span></p>
+        <h2>Onde estão<br>os <em>data centers?</em></h2>
+        <p>Os data centers estão espalhados pelo mundo, mas sua localização depende de fatores como disponibilidade de energia, acesso à água, infraestrutura de internet, clima e proximidade dos usuários.</p>
+        <p>Países como Estados Unidos, China e membros da União Europeia possuem grandes concentrações dessas instalações.</p>
+        <p>No Brasil, há uma concentração expressiva de data centers na região Sudeste. A Associação Brasileira de Data Centers registra 110 unidades do tipo colocation e/ou hyperscale nessa região, de um total de 162 unidades mapeadas nas cinco regiões. São Paulo se destaca em capacidade instalada.</p>
+        <p>A localização é importante porque regiões que já enfrentam problemas de abastecimento podem sofrer ainda mais pressão sobre seus recursos hídricos.</p>
+      </div>
+      <div class="location-card">
+        <p class="kicker">REGIÕES COM PRESENÇA EXPRESSIVA</p>
+
+        <img
+  class="world-map-image"
+  src="img/mapa-data-centers.jpeg"
+  alt="Mapa-múndi destacando regiões com grande presença de data centers."
+>
+        <div class="brazil-highlight"><span class="brazil-dot"></span><div><strong>BRASIL · SUDESTE</strong><p>São Paulo é um dos principais polos brasileiros de infraestrutura de data centers.</p></div></div>
+        <p class="map-disclaimer">Esquema ilustrativo: não representa a localização exata nem a quantidade de instalações.</p>
+      </div>
+    </section>
+
+    <section class="section impact-section" id="impactos">
+      <div class="section-heading">
+        <p class="kicker">CONSEQUÊNCIAS AMBIENTAIS E SOCIAIS <span>05 / 06</span></p>
+        <h2>Quando a tecnologia<br>pressiona <em>a natureza.</em></h2>
+        <p>O consumo elevado pode gerar diferentes consequências, principalmente em regiões com pouca disponibilidade hídrica.</p>
+      </div>
+      <div class="impact-grid">
+        <article class="impact-card"><span>01</span><div><h3>Menos água disponível</h3><p>O uso elevado pode aumentar a pressão sobre rios, reservatórios e outras fontes de abastecimento.</p></div></article>
+        <article class="impact-card"><span>02</span><div><h3>Ecossistemas afetados</h3><p>A retirada de grandes quantidades de água pode prejudicar ambientes naturais e espécies que dependem desses recursos.</p></div></article>
+        <article class="impact-card"><span>03</span><div><h3>Disputa pelo recurso</h3><p>Empresas e comunidades podem competir pelo acesso à água, principalmente em regiões com escassez.</p></div></article>
+        <article class="impact-card"><span>04</span><div><h3>Desigualdade social</h3><p>Comunidades próximas podem enfrentar dificuldades se o consumo industrial prejudicar a disponibilidade de água para a população.</p></div></article>
+      </div>
+      <div class="energy-warning"><span aria-hidden="true">ϟ</span><p><strong>E existe outro ponto:</strong> a geração de energia elétrica utilizada nessas instalações também pode provocar impactos ambientais, dependendo da fonte de energia.</p></div>
+    </section>
+
+    <section class="section dark-section solutions-section" id="solucoes">
+      <div class="section-heading">
+        <p class="kicker">CAMINHOS POSSÍVEIS <span>06 / 06</span></p>
+        <h2>Inovar também é<br><em>usar melhor.</em></h2>
+        <p>Algumas alternativas podem ajudar a reduzir os impactos ambientais dos data centers.</p>
+      </div>
+      <div class="solutions-list">
+        <article><span>01</span><div><h3>Refrigeração mais eficiente</h3><p>Desenvolver tecnologias que resfriem os servidores utilizando menos água.</p></div><b>↗</b></article>
+        <article><span>02</span><div><h3>Reutilização da água</h3><p>Utilizar água de reúso ou água da chuva em processos adequados de refrigeração.</p></div><b>↗</b></article>
+        <article><span>03</span><div><h3>Energia renovável</h3><p>Ampliar o uso de fontes como energia solar e eólica para diminuir impactos da geração de eletricidade.</p></div><b>↗</b></article>
+        <article><span>04</span><div><h3>Planejamento da localização</h3><p>Instalar data centers em regiões com infraestrutura suficiente e disponibilidade de recursos hídricos.</p></div><b>↗</b></article>
+        <article><span>05</span><div><h3>Tecnologias mais eficientes</h3><p>Criar modelos de IA que exijam menos processamento e energia.</p></div><b>↗</b></article>
+      </div>
+    </section>
+
+    <section class="section conclusion">
+      <p class="kicker">PARA CONCLUIR</p>
+      <h2>O futuro digital<br>também precisa ser <em>sustentável.</em></h2>
+      <div class="conclusion-text">
+        <p>A inteligência artificial oferece diversos benefícios para a sociedade, mas seu crescimento também traz desafios ambientais que precisam ser considerados. Os data centers são essenciais para o funcionamento dessas tecnologias e dependem de grandes quantidades de energia e, em determinados sistemas, de água para manter seus equipamentos funcionando.</p>
+        <p>Por isso, é importante investir em tecnologias mais eficientes, reutilizar recursos naturais e planejar melhor a localização dessas instalações. O desenvolvimento tecnológico deve acontecer de forma responsável, buscando equilibrar inovação, preservação ambiental e qualidade de vida da população.</p>
+      </div>
+      <div class="conclusion-sign"><span>OCEON</span><small>TECNOLOGIA AZUL · TURMA 148 · 2026</small></div>
+    </section>
+
+    <section class="quiz-section" id="quiz">
+      <div class="quiz-wrap">
+        <div class="quiz-heading"><p class="kicker">AGORA É COM VOCÊ</p><h2>O que você <em>aprendeu?</em></h2><p>Responda às cinco perguntas e confira seu resultado.</p></div>
+        <div class="quiz-card">
+          <div class="quiz-progress"><span id="quizProgress">PERGUNTA 1 DE 5</span><div><i id="progressBar"></i></div></div>
+          <h3 id="questionText">O que são data centers?</h3>
+          <div class="answers" id="answers"></div>
+          <div class="quiz-bottom"><p id="feedback" aria-live="polite">Selecione uma alternativa para continuar.</p><button class="button button-dark" id="nextQuestion" disabled>Próxima pergunta →</button></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section sources-section" id="fontes">
+      <div class="section-heading">
+        <p class="kicker">PARA SABER MAIS</p>
+        <h2>Fontes e <em>referências.</em></h2>
+        <p>Materiais utilizados como base para os dados e as explicações desta pesquisa.</p>
+      </div>
+      <ol class="sources-list">
+        <li><div><strong>International Energy Agency (IEA)</strong><p><i>Energy and AI</i> (2025). Dados globais de consumo de eletricidade dos data centers e projeções para 2030.</p></div><a href="https://www.iea.org/reports/energy-and-ai" target="_blank" rel="noopener">Acessar relatório ↗</a></li>
+        <li><div><strong>Lawrence Berkeley National Laboratory</strong><p><i>2024 United States Data Center Energy Usage Report</i>. Estimativas de consumo direto e indireto de água e energia dos data centers nos Estados Unidos.</p></div><a href="https://eta-publications.lbl.gov/sites/default/files/2024-12/lbnl-2024-united-states-data-center-energy-usage-report.pdf" target="_blank" rel="noopener">Ler relatório (PDF) ↗</a></li>
+        <li><div><strong>Universidade da Califórnia, Riverside — pesquisa acadêmica</strong><p><i>Making AI Less "Thirsty": Uncovering and Addressing the Secret Water Footprint of AI Models</i>. Estudo sobre a pegada hídrica dos modelos de IA.</p></div><a href="https://arxiv.org/abs/2304.03271" target="_blank" rel="noopener">Ler pesquisa ↗</a></li>
+        <li><div><strong>Associação Brasileira de Data Centers (ABDC)</strong><p>Dados sobre a distribuição regional de data centers do tipo colocation e/ou hyperscale: 110 das 162 unidades mapeadas estão no Sudeste; São Paulo se destaca em capacidade instalada.</p></div><a href="https://datacenter.org.br/mercado/" target="_blank" rel="noopener">Consultar levantamento ↗</a></li>
+        <li><div><strong>Agência Nacional de Águas e Saneamento Básico (ANA)</strong><p>Informações institucionais sobre recursos hídricos, gestão e situação da água no Brasil.</p></div><a href="https://www.gov.br/ana/pt-br" target="_blank" rel="noopener">Acessar ANA ↗</a></li>
+      </ol>
+      <p class="source-note">Os dados estatísticos foram apresentados com seus recortes geográficos e temporais para evitar comparações incorretas. Consulte os relatórios originais para detalhes metodológicos.</p>
+    </section>
+
+    <section class="team-section" id="grupo">
+      <div class="team-top"><p class="kicker">QUEM FEZ A PESQUISA</p><h2>Grupo <em>Oceon.</em></h2><p>Turma 148 · Geografia · 2026</p></div>
+      <div class="team-grid">
+        <article><span>01</span><h3>Eduarda Rabatini Souza Martins</h3><p>Desenvolvimento e montagem do site</p></article>
+        <article><span>02</span><h3>Alexandra Lúcia da Silva</h3><p>Pesquisa e levantamento de informações</p></article>
+        <article><span>03</span><h3>Izabella Alibati de Melo</h3><p>Escolha da paleta de cores e identidade visual</p></article>
+      </div>
+      <p class="team-credit">TECNOLOGIA AZUL <span>·</span> OCEON <span>·</span> 2026</p>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <a class="brand footer-brand" href="#inicio"><span class="brand-mark">≈</span><span>TECNOLOGIA <b>AZUL</b><small>GRUPO OCEON</small></span></a>
+    <p>Pesquisa escolar sobre os impactos ambientais da infraestrutura digital.</p>
+    <a href="#inicio" class="back-top">VOLTAR AO TOPO ↑</a>
+    <small class="copyright">TURMA 148 · 2026</small>
+  </footer>
+</body>
+</html>
