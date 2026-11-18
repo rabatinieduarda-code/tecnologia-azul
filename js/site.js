@@ -16,7 +16,6 @@ nav.querySelectorAll("a").forEach((link) => {
   });
 });
 
-// Perguntas do quiz organizadas em um array de objetos.
 const perguntas = [
   {
     pergunta: "O que são data centers?",
