@@ -11,15 +11,6 @@ Site de Geografia da turma 148 sobre o consumo de água pela inteligência artif
 1. Extraia a pasta `tecnologia_azul_oceon`.
 2. Abra o arquivo `index.html` em um navegador.
 
-## Organização
-- `index.html`: conteúdo e estrutura da página.
-- `css/estilo.css`: identidade visual, layout e responsividade.
-- `js/site.js`: menu responsivo e quiz interativo.
-- `img/`: imagens e ilustrações utilizadas no site (JPG, JPEG e SVG).
-
-## Tecnologias
-HTML5, CSS3 e JavaScript puro. Não utiliza frameworks ou bibliotecas JavaScript.
-
 ## Tipografia e identidade visual
 O site utiliza duas famílias tipográficas: **Space Grotesk** nos títulos e **DM Sans** nos textos. A paleta combina azul-marinho, azul oceano, verde-água e tons claros. A combinação de tons próximos de azul e verde remete à água e à tecnologia; o contraste com o fundo claro facilita a leitura.
 
